@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "cutefont";
+    src: url(cuttefont.otf);
+}
+
+body {
+    font-family: "cutefont";
+    background-color: palevioletred;
+    color: white;
+}
+
+input[type="number"] {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="button"] {
+    border: 2px solid white;
+    border-radius: 12px;
+
+}
+
+#cajerito {
+    position: relative;
+    text-align: center;
+}
+
+#cajerito img {
+    height: 80vh;
+}
+
+#centered {
+    position: absolute;
+    text-align: center;
+    left: 50vh;
+}
